@@ -1,0 +1,13 @@
+[{
+  "name": "Nested Routes Quiz",
+  "code": "jofJOFjof",
+  "tests": [
+    {
+      "description": "all tests have passed",
+      "definition": {
+        "waitForEvent": "tests-pass",
+        "exists": true
+      }
+    }
+  ]
+}]
