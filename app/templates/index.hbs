@@ -1,0 +1,36 @@
+<h2>Instructions</h2>
+
+<ul>
+  <li>use Ember-CLI to generate routes and templates for the following URLs:
+    <ul>
+      <li><code>/toys</code></li>
+      <li><code>/bricks</code></li>
+      <li><code>/bricks/red</code></li>
+      <li><code>/bricks/blue</code></li>
+    </ul>
+  </li>
+  <li>add the following links to the site's nav:
+    <ul>
+      <li>a "Toys" link: <code>\{{ link-to 'Toys' 'toys' id="nav-toys"}}</code></li>
+      <li>a "Bricks" link: <code>\{{ link-to 'Bricks' 'bricks' id="nav-bricks"}}</code></li>
+    </ul>
+  </li>
+  <li>fill each template with the correct information
+    <ul>
+      <li><code>toys.hbs</code> should have the text "All Toy Categories"</li>
+      <li><code>bricks.hbs</code> should have
+        <ul>
+          <li>the text "All Brick Categories"</li>
+          <li>the following code: <code>\{{link-to 'View all red bricks' 'bricks.red' id="link-bricks-red"}}</code></li>
+          <li>the following code: <code>\{{link-to 'View all blue bricks' 'bricks.blue' id="link-bricks-blue"}}</code></li>
+        </ul>
+      </li>
+      <li><code>red.hbs</code> should have the text "Info for all red bricks"</li>
+      <li><code>blue.hbs</code> should have the text "Info for all blue bricks"</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice">
+  The Feedback extension will give you a code when you've fulfilled the tests on the <a href="/tests?nojshint&filter=Quiz" target="_blank">tests page</a>.
+</p>
